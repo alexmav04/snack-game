@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#snakeCanvas {
+  border: 5px solid lightgray;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#score1 {
+  margin-top: 1rem;
+}
+
+#score1,
+#score2 {
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+#btnStart {
+    color: darkblue;
+    padding: 0.25rem 0.5rem;
+    background-color:blanchedalmond;
+    font-size: 1.5rem;
+    display: block;
+}
