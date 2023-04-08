@@ -70,7 +70,7 @@ class Food {
 creatSnake();
 let snakeFood = new Food();
 window.addEventListener("keydown", changeDirection);
-let direction = "Right"; //snake's current direction
+let direction = "Right"; //snake's initial direction
 let score = 0;
 let topScore;
 loadTopScore();
